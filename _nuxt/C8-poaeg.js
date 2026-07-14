@@ -1,0 +1,1 @@
+import{am as c}from"./Bxz8qOya.js";let i=0;function a(){const t=c("toasts",()=>[]);function e(s,o="success"){const r=++i;t.value=[...t.value,{id:r,message:s,type:o}],setTimeout(()=>u(r),3500)}function u(s){t.value=t.value.filter(o=>o.id!==s)}return{toasts:t,dismiss:u,success:s=>e(s,"success"),error:s=>e(s,"error"),info:s=>e(s,"info")}}export{a as u};
